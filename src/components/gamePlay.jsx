@@ -52,7 +52,7 @@ const GamePlay = () => {
               setSelectedNumber={setSelectedNumber}
             />
           </div>
-            <RollDice currentDice={currentDice} roleDice={rollDice} />
+            <RollDice currentDice={currentDice} rollDice={rollDice} />
         <div className="btns">
             <OutlineButton onClick={resetScore}>Reset Score</OutlineButton>
             <Button onClick={()=>setShowRules((prev) => !prev)}> {

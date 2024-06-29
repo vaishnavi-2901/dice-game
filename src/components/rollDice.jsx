@@ -1,14 +1,25 @@
+import React, { useState } from 'react';
 import styled from "styled-components";
 
-const RollDice = ({roleDice, currentDice}) => {
-    return (
-        <DiceContainer>
-          <div className="dice" onClick={roleDice}>
-            <img src={`/images/dice_${currentDice}.png`} alt="dice 1" />
-          </div>
-          <p>Click on Dice to roll</p>
-        </DiceContainer>
-      );
+const RollDice = ({rollDice, currentDice}) => {
+  const [rolling, setRolling] = useState(false);
+
+  const handleRollDice = () => {
+    setRolling(true);
+    rollDice();
+    setTimeout(() => {
+      setRolling(false);
+    }, 1000);
+  };
+
+  return (
+      <DiceContainer>
+        <div className={`dice ${rolling ? 'rolling' : ''}`} onClick={handleRollDice}>
+          <img src={`/images/dice_${currentDice}.png`} alt={`dice ${currentDice}`} />
+        </div>
+        <p>Click on Dice to roll</p>
+      </DiceContainer>
+    );
 };
 
 
@@ -23,9 +34,16 @@ const DiceContainer = styled.div`
 
   .dice {
     cursor: pointer;
+    transition: transform 1s;
+  }
+
+  .dice.rolling {
+    transform: rotate(360deg);
   }
 
   p {
-    font-size: 24px;
+    margin-top: 16px;
+    font-size: 20px;
+    color: #333;
   }
 `;
