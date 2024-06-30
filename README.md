@@ -51,7 +51,7 @@
 
 ## About The Project
 
-[![Dice Game][product-screenshot]](public/images/Product_screenshot.png)
+[![Dice Game][product-screenshot-url]](https://github.com/vaishnavi-2901/dice-game)
 
 Dice Game is a simple and fun game where players roll the dice and keep track of their scores. Players should be able to see the patterns and solve the maze to earn credits.
 
@@ -153,10 +153,10 @@ Project Link: [https://github.com/vaishnavi-2901/dice-game](https://github.com/v
 [stars-url]: https://github.com/vaishnavi-2901/dice-game/stargazers
 [issues-shield]: https://img.shields.io/github/issues/vaishnavi-2901/dice-game.svg?style=for-the-badge
 [issues-url]: https://github.com/vaishnavi-2901/dice-game/issues
-[product-screenshot]: public/images/Product_screenshot.png
 [React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [React-url]: https://reactjs.org/
 [Vite]: https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white
 [Vite-url]: https://vitejs.dev/
 [Styled-Components]: https://img.shields.io/badge/Styled--Components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white
 [Styled-Components-url]: https://styled-components.com/
+[product-screenshot-url]: https://private-user-images.githubusercontent.com/36892963/344225921-856e2548-9b15-4211-a714-b717b7bf2fb3.jpg?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTk3MTYyODUsIm5iZiI6MTcxOTcxNTk4NSwicGF0aCI6Ii8zNjg5Mjk2My8zNDQyMjU5MjEtODU2ZTI1NDgtOWIxNS00MjExLWE3MTQtYjcxN2I3YmYyZmIzLmpwZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDA2MzAlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwNjMwVDAyNTMwNVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTYzNGU3NzBiOGI0ODQxNDg0OTBkN2Q5ODkxZDBjNmVjNmIyM2Y3NmQwZjcwNWVlODNhNGZiZWRmMmQ3NTBiMWYmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.C3FrDHhq4B2kQTTdhD7TzLhbdpDWq_fvNQi0fbyhKEc
