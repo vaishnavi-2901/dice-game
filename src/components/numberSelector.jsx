@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
+
 const NumberSelector = ({
   error,
   setError,
@@ -69,5 +70,3 @@ const Box = styled.div`
     color: ${(props) => (!props.isSelected ? "white" : "")};
   }
 `;
-
-// Add hover effect to the Box styled component. When the user hovers over the Box component, the background color should change to black and the text color should change to white. The hover effect should only be applied when the Box component is not selected.

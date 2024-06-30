@@ -11,6 +11,7 @@ const Container = styled.div`
     overflow: hidden;   
 
 
+
     .content{
         h1{
             font-size: 96px;
