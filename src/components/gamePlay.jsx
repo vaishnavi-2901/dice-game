@@ -68,7 +68,8 @@ export default GamePlay;
 
 
 const MainContainer = styled.div`
-    padding-top: 70px;
+    padding-top: 30px;
+
     .top_section {
         display: flex;
         justify-content: space-around;
@@ -81,6 +82,6 @@ const MainContainer = styled.div`
         justify-content: center;
         align-items: center;
         gap: 10px;
-        margin-top: 40px;
+        margin-top: 30px;
     }
 `

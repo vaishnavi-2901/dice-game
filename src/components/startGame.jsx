@@ -8,6 +8,8 @@ const Container = styled.div`
     align-items: center;
     height: 100vh;
     gap:200px;
+    overflow: hidden;   
+
 
 
     .content{
@@ -18,8 +20,16 @@ const Container = styled.div`
     }
 
     .image {
-        height: 649px;
-        width: 522px;
+        height: 600px;
+        width: 500px;
+    }
+    img {
+        height: 100%;
+        width: 100%;
+        filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        // make the image fit the container
+        object-fit: contain;
+
     }
 `
 
